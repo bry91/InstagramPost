@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Post</title>
+        
+        <script src="https://kit.fontawesome.com/43fc8bdb21.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Marvel&display=swap" rel="stylesheet"> 
+        <style>
+        .flex-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: large;
+        }
+
+        body{
+            background-color: black;
+        }
+
+        p, strong{
+            font-family: 'Marvel', sans-serif;
+            margin: 0;
+            color: black;
+        }
+
+        .special1{
+            padding: 3px;
+        }
+
+        .box{
+            background-color: white;
+            padding: 10px;
+            max-width: min-content;
+        }
+
+        .post_header{
+            display: flex;
+            justify-content: space-between;
+            margin: 6px;
+            align-items: center;
+        }
+
+        .box2, .box3{
+            display: flex;
+            align-items: center;
+        }
+
+        .post_icons{
+            display: flex;
+            justify-content: space-between;
+            margin: 6px;
+        }
+
+        .post_likes, .post_caption{
+            margin: 6px;
+        }
+
+        i{
+            padding: 3px;
+            align-items: baseline;
+            margin: auto;
+            font-size: 1.5rem;
+        }
+
+        .post_logo{
+            align-self: center;
+        }
+
+        .special2{
+            font-size: 2.5rem;
+        }
+
+
+
+        </style>
+
+    </head>
+
+    <body>
+            
+        <div class="flex-container">
+
+            <div class="box">
+                
+                <div class="post_header">
+                    <div class="box2">
+                        <div class="post_logo"><i class="fab fa-html5 special2"></i></div>
+                        <div class="post_title special1"><strong>HTML5</strong><p>Cute Cat</p></div>
+                    </div>
+                    <div class="post_settings"><i class="fas fa-ellipsis-v"></i></div>
+                </div>
+
+                <div class="post_image">
+                    <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg" alt="Wanda and Vision">
+                </div>
+
+                <div class="post_icons">
+                    <div class="box3">
+                        <div><i class="far fa-heart right_icon icon1 icon_pad"></i></div>
+                        <div><i class="far fa-comment right_icon icon1 icon_pad"></i></div>
+                        <div><i class="far fa-paper-plane right_icon icon1 icon_pad"></i></div>
+                    </div>
+                    <div>
+                        <div><i class="far fa-bookmark icon1 icon_pad end_icon"></i></div>
+                    </div>
+                </div>
+
+                <div class="post_likes special1">
+                    <p>Liked by <strong>4GeeksAcademy, html, Web</strong> and <strong>100,000 others</strong></p>
+                </div>
+
+                <div class="post_caption special1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            
+            </div>
+            
+        </div>
+    
+    </body>
+
+</html>
